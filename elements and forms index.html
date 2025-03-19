@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists,Images,Tables,Registration Forms</title>
+</head>
+<body>
+
+    <h1>HTML List with Roman Numerals</h1>
+    <h2>Ordered Lists</h2>
+    <ol type="I">
+        <li>Silumko Matiwana</li>
+        <li>Lusanda Matiwana</li>
+        <li>Milokuhle Matiwana</li>
+        <li>Obanzi Matiwana</li>
+        <li>Asibabale Matiwana</li>
+    </ol>
+
+    <h2>External Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/30254810/pexels-photo-30254810/free-photo-of-bundt-cake-with-candle-and-daisies.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load" alt="Beautiful Daisy Bundt Cake" height="500" width="500">
+
+    <h2>Contact Lists</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Silumko Matiwana</td>
+            <td>Block 6F4 Avenue A</td>
+            <td>0737480406</td>
+            <td>silumkomatiwana@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Lusanda Matiwana</td>
+            <td>864 Msobomvu Township</td>
+            <td>0732983321</td>
+            <td>luluntlombeni@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Milokuhle Matiwana</td>
+            <td>23 Southwark Village</td>
+            <td>07322242628</td>
+            <td>milokuhlematiwana@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Obanzi Matiwana</td>
+            <td>4 Southwark Road</td>
+            <td>07324891011</td>
+            <td>obanzimatiwana@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Asibabale Matiwana</td>
+            <td>M3 ount Road Port Elizabeth</td>
+            <td>0822986332</td>
+            <td>asibabalematiwana@gmail.com</td>
+        </tr>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="phone">Mobile:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
